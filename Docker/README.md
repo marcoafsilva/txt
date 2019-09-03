@@ -30,6 +30,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 ```
 sudo usermod -a -G docker $USER
+
 sudo systemctl enable docker # Auto-start on boot
 sudo systemctl start docker # Start right now
 ```
