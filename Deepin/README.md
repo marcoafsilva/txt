@@ -13,3 +13,21 @@ sudo update-grub
 
 sudo reboot
 ```
+
+### Create terminal alias
+
+```
+sudo vim ~/.bashrc
+
+# -----------
+# Aliases ---
+# -----------
+
+alias gs='git status'
+alias gaa='git add .' 
+
+alias update='sudo apt-get update'
+alias upgrade='sudo apt-get upgrade'
+alias dist-upgrade='sudo apt-get dist-upgrade'
+alias system-upgrade='update && upgrade && dist-upgrade'
+```
