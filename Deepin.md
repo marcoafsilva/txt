@@ -23,9 +23,11 @@ sudo vim ~/.bashrc
 # Aliases ---
 # -----------
 
+# Git -------
 alias gs='git status'
 alias gaa='git add .' 
 
+# System ----
 alias update='sudo apt-get update'
 alias upgrade='sudo apt-get upgrade'
 alias dist-upgrade='sudo apt-get dist-upgrade'
