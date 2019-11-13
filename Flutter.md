@@ -19,7 +19,7 @@ mkdir android-sdk
 cd android-sdk
 wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip
 unzip sdk-tools-linux-4333796.zip
-./tools/bin/sdkmanager "build-tools;28.0.3" "emulator" "platform-tools" "platforms;android-23" "tools"
+./tools/bin/sdkmanager "build-tools;28.0.3" "emulator" "platform-tools" "platforms;android-28" "tools"
 ```
 
 
