@@ -40,3 +40,14 @@ sudo vim ~/.bashrc
 
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(__git_ps1 " \[\e[1;30;42m\](%s)")\[\e[m\] $ '
 ```
+
+###### Showing short path name
+
+```
+sudo vim ~/.bashrc
+
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]$(__git_ps1 " \[\e[1;30;42m\](%s)")\[\e[m\] $ '
+
+
+PS1='${debian_chroot:+($debian_chroot)}\u:\W\$ '
+```
