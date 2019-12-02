@@ -42,6 +42,7 @@ PS1='${debian_chroot:+($debian_chroot)}\u:\W\$ '
 ```
 
 ###### Showing Styled in a new row
+![](https://github.com/marcoafsilva/txt/blob/master/prints/style-3.png?raw=true)
 
 ```
 PS1='\[\033[01;32m\]┌─\u\[\033[01;34m\] @ \w\[\033[0;32m\]$(__git_ps1)\n\[\033[01;32m\]└─\[\033[01;32m\] \$\[\033[0m\033[0;32m\] \[\033[00m\]'
